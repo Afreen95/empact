@@ -1,0 +1,20 @@
+{
+  "context": {
+    "my_creds": {
+      "user": "",
+      "password": ""
+    },
+    "phonenumber": "@phonenumber"
+  },
+  "actions": [
+    {
+      "name": "davidsenter1@gmail.com_dev/callHelpLine",
+      "type": "server",
+      "parameters": {
+        "number": ""
+      },
+      "credentials": "$my_creds",
+      "result_variable": "<result_variable_name>"
+    }
+  ]
+}
