@@ -1,0 +1,1835 @@
+{
+  "name": "Therapist",
+  "intents": [
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "hello, my name is David"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "About you"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "A real agent, please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "No more"
+        },
+        {
+          "text": "None"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Nothing else"
+        }
+      ]
+    },
+    {
+      "intent": "get_diagnosis",
+      "examples": [
+        {
+          "text": "I'm finished listing my problems"
+        },
+        {
+          "text": "I am done listing symptoms"
+        },
+        {
+          "text": "That's all the symptoms I have"
+        },
+        {
+          "text": "I don't have any more issues"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Confidential?"
+        },
+        {
+          "text": "Is there confidentiality?"
+        },
+        {
+          "text": "Is this conversation confidential?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "get_symptoms",
+      "examples": [
+        {
+          "text": "bad"
+        },
+        {
+          "text": "not good at all"
+        },
+        {
+          "text": "I am not feeling okay"
+        },
+        {
+          "text": "I am not doing too well"
+        },
+        {
+          "text": "I am not okay"
+        },
+        {
+          "text": "I am really hungry"
+        },
+        {
+          "text": "not good"
+        },
+        {
+          "text": "pretty bad"
+        },
+        {
+          "text": "very lonely"
+        },
+        {
+          "text": "really sad"
+        },
+        {
+          "text": "really bad"
+        },
+        {
+          "text": "I don't feel good"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "pain",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Headaches",
+            "Random body pains",
+            "Cramps",
+            "head hurts",
+            "muscle cramps",
+            "leg cramping",
+            "pain in leg",
+            "pain in arm",
+            "body hurts"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thoughts",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Problem remembering details",
+            "Difficulty making decisions",
+            "Trouble concentrating",
+            "Slow thinking",
+            "can't remember little details",
+            "can't concentrate",
+            "cannot think quickly",
+            "think very slowly",
+            "indecisive",
+            "thoughts are sluggish"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sleeping",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Insomnia",
+            "Oversleeping",
+            "Fatigue",
+            "wake up really early",
+            "always tired",
+            "can't sleep",
+            "cannot sleep",
+            "tired all the time",
+            "fatigued",
+            "can't get out of bed",
+            "don't want to get out of bed",
+            "trouble getting out of bed",
+            "trouble falling asleep",
+            "can't fall asleep"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "digestion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "overeating",
+            "eating a lot",
+            "excessive hunger",
+            "really hungry",
+            "not hungry",
+            "loss of appetite",
+            "lack of appetite",
+            "weight gain",
+            "gaining weight",
+            "weight loss",
+            "losing weight",
+            "stomach pain",
+            "unexplained stomach problem",
+            "abdominal pain",
+            "random abdominal pain",
+            "stomach hurts",
+            "not very hungry"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interests",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "not interested in hobbies anymore",
+            "lack of interest in things I used to enjoy",
+            "loss of interest in activities",
+            "not enjoying hobbies anymore",
+            "not enjoying things anymore",
+            "not enjoying sports anymore",
+            "don't want to play sports anymore",
+            "lower sex drive",
+            "not interested in sex",
+            "don't want to be active",
+            "don't enjoy things I used to",
+            "don't enjoy things anymore",
+            "don't enjoy hobbies anymore",
+            "don't enjoy dancing anymore"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "frustration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Irritability",
+            "Impatience",
+            "Restlessness",
+            "Feeling angry about small things",
+            "Frustration over minor issues",
+            "irritable",
+            "impatient",
+            "restless",
+            "antsy",
+            "agitated",
+            "get angry easily",
+            "get angry about little things",
+            "get frustrated easily",
+            "frustrated",
+            "tiny things make me mad",
+            "mad easily",
+            "everything makes me mad"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "suicide",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Attempting suicide",
+            "Thinking about death",
+            "Suicidal thoughts",
+            "kill myself",
+            "end my life",
+            "want to die",
+            "thoughts of death",
+            "thoughts of suicide",
+            "want to end it all",
+            "want it to end",
+            "thinking about dying",
+            "need to die",
+            "cutting myself",
+            "hurt myself",
+            "cut myself",
+            "harm myself"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emotions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Crying a lot",
+            "Feeling guilty",
+            "Constant bad mood",
+            "Feeling worthless",
+            "Feeling helpless",
+            "Feeling empty",
+            "Pessimism",
+            "Hopelessness",
+            "Blaming self",
+            "cry a lot",
+            "feel like a burden",
+            "feel sad",
+            "feel empty",
+            "feel nothing",
+            "cry all the time",
+            "cry every day",
+            "guilty",
+            "helpless",
+            "moody",
+            "worthless",
+            "hopeless",
+            "pessimist"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phonenumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "phone",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})",
+            "\\+(\\d{11})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$thoughts == true && $sleeping == true && $emotions == true && $frustration == true && $interests == true",
+      "dialog_node": "node_6_1550373670289",
+      "previous_sibling": "node_5_1550373384953"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$sleeping == true && $emotions == true && $digestion == true && $thoughts == true && $interests == true",
+      "dialog_node": "node_11_1550373793706",
+      "previous_sibling": "node_10_1550373783170"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $digestion == true && $interests == true",
+      "dialog_node": "node_19_1550373882654",
+      "previous_sibling": "node_18_1550373873089"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$sleeping == true && $emotions == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_16_1550373851413",
+      "previous_sibling": "node_15_1550373841392"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$sleeping == true && $thoughts == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_3_1550373254246",
+      "previous_sibling": "node_1_1550372516956"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You may have some symptoms of depression, but not enough to know for sure. You may still want to reach out to the resources on this page."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1550392754368",
+      "previous_sibling": "node_21_1550373905434"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$thoughts == true && $sleeping == true && $emotions == true && $digestion == true && $frustration == true",
+      "dialog_node": "node_5_1550373384953",
+      "previous_sibling": "node_4_1550373374727"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $frustration == true && $thoughts == true",
+      "dialog_node": "node_13_1550373819924",
+      "previous_sibling": "node_12_1550373806401"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $thoughts == true && $digestion == true && $interests == true",
+      "dialog_node": "node_14_1550373831329",
+      "previous_sibling": "node_13_1550373819924"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $emotions == true && $digestion == true && $frustration == true && $thoughts == true",
+      "dialog_node": "node_17_1550373861588",
+      "previous_sibling": "node_16_1550373851413"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$thoughts == true && $emotions == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_15_1550373841392",
+      "previous_sibling": "node_14_1550373831329"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $emotions == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_10_1550373783170",
+      "previous_sibling": "node_9_1550373771297"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $thoughts == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_18_1550373873089",
+      "previous_sibling": "node_17_1550373861588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $thoughts == true && $digestion == true && $frustration == true",
+      "dialog_node": "node_21_1550373905434",
+      "previous_sibling": "node_20_1550373892687"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $digestion == true && $frustration == true && $interests == true",
+      "dialog_node": "node_9_1550373771297",
+      "previous_sibling": "node_8_1550373693134"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $thoughts == true && $frustration == true && $interests == true",
+      "dialog_node": "node_20_1550373892687",
+      "previous_sibling": "node_19_1550373882654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $thoughts == true && $interests == true",
+      "dialog_node": "node_8_1550373693134",
+      "previous_sibling": "node_7_1550373682119"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $digestion == true && $thoughts == true",
+      "dialog_node": "node_12_1550373806401",
+      "previous_sibling": "node_11_1550373793706"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $emotions == true && $frustration == true && $thoughts == true && $interests == true",
+      "dialog_node": "node_1_1550372516956",
+      "previous_sibling": "node_2_1550357781447"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $digestion == true && $frustration == true",
+      "dialog_node": "node_7_1550373682119",
+      "previous_sibling": "node_6_1550373670289"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $emotions == true && $digestion == true && $thoughts == true && $interests == true",
+      "dialog_node": "node_4_1550373374727",
+      "previous_sibling": "node_3_1550373254246"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have several symptoms of depression. I highly recommend you reach out to one of the resources on this site."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1550355675679",
+      "metadata": {},
+      "conditions": "$pain == true && $sleeping == true && $emotions == true && $frustration == true && $interests == true",
+      "dialog_node": "node_2_1550357781447"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1550360378406",
+      "metadata": {},
+      "variable": "$phonenumber",
+      "dialog_node": "slot_1_1550374667044"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1550360819298",
+      "metadata": {},
+      "conditions": "$started == true",
+      "dialog_node": "node_2_1550367546426",
+      "previous_sibling": "node_1_1550355675679"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry to hear that. If you feel comfortable, please tell me about any symptoms (mental, physical, or emotional) you are experiencing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1550360819298",
+      "context": {
+        "pain": false,
+        "started": true,
+        "suicide": false,
+        "emotions": false,
+        "sleeping": false,
+        "thoughts": false,
+        "digestion": false,
+        "interests": false,
+        "frustration": false
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1550367578197",
+      "previous_sibling": "node_2_1550367546426"
+    },
+    {
+      "type": "standard",
+      "title": "Get Diagnosis",
+      "output": {},
+      "parent": "node_2_1550360819298",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550366935555"
+      },
+      "conditions": "#get_diagnosis",
+      "dialog_node": "node_1_1550355675679",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1550351826695"
+    },
+    {
+      "type": "standard",
+      "title": "Gather Symptoms",
+      "output": {},
+      "parent": "node_2_1550360819298",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1550351826695",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for your number."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1550374667044",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_4_1550374869982",
+      "previous_sibling": "handler_2_1550374667044"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1550374667044",
+      "actions": [
+        {
+          "name": "XXXXXXXXXXXXXXXXXXXXX",
+          "type": "server",
+          "parameters": {
+            "number": "+1XXXXXXXXXX"
+          },
+          "credentials": "$my_creds",
+          "result_variable": "<result_variable_name>"
+        }
+      ],
+      "context": {
+        "my_creds": {
+          "user": "XXXXXXXXXXXXXXXX",
+          "password": "XXXXXXXXXXXXXXXX"
+        },
+        "phonenumber": "@phonenumber"
+      },
+      "metadata": {},
+      "conditions": "@phonenumber",
+      "event_name": "input",
+      "dialog_node": "handler_2_1550374667044",
+      "previous_sibling": "handler_3_1550374667044"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter your phone number"
+      },
+      "parent": "slot_1_1550374667044",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1550374667044"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry you're having pain. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "pain": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@pain",
+      "dialog_node": "node_48_1550359015517",
+      "previous_sibling": "node_47_1550359002940"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you're having sleeping troubles. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "sleeping": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@sleeping",
+      "dialog_node": "node_44_1550358905813",
+      "previous_sibling": "node_43_1550358886054"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you're having trouble with digestion. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "digestion": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@digestion",
+      "dialog_node": "node_45_1550358929978",
+      "previous_sibling": "node_44_1550358905813"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you're not interested in things you used to enjoy. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "interests": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@interests",
+      "dialog_node": "node_46_1550358967725",
+      "previous_sibling": "node_45_1550358929978"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, thank you for sharing your symptoms. Checking my sources..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1550355675679"
+      },
+      "conditions": "#get_diagnosis",
+      "dialog_node": "node_1_1550366061804",
+      "previous_sibling": "node_49_1550359032921"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, thank you for sharing your symptoms. Checking my sources..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1550355675679"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_1_1550366812138",
+      "previous_sibling": "node_1_1550366061804"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you're feeling so frustrated. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "frustration": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@frustration",
+      "dialog_node": "node_47_1550359002940",
+      "previous_sibling": "node_46_1550358967725"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry, I did not understand. Please describe your symptoms."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1550367281056",
+      "previous_sibling": "node_1_1550366812138"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please stay calm and give us your phone number. We will call you immediately."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "suicide": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1550360378406"
+      },
+      "conditions": "@suicide",
+      "dialog_node": "node_49_1550359032921",
+      "previous_sibling": "node_48_1550359015517"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you are having emotional troubles. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "emotions": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@emotions",
+      "dialog_node": "node_43_1550358886054",
+      "previous_sibling": "node_42_1550357988175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry you are having problems with thoughts. Any other symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_4_1550351826695",
+      "context": {
+        "thoughts": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1550360819298"
+      },
+      "conditions": "@thoughts",
+      "dialog_node": "node_42_1550357988175"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I sincerely hope you start to feel better. Goodbye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_2_1550366935555",
+      "previous_sibling": "node_1_1550360378406"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1550366935555"
+    },
+    {
+      "type": "frame",
+      "title": "emergencyNode",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We will call you shortly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1550360378406",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1550360819298",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Ask how you are feeling?",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#get_symptoms",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1550360819298",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How are you feeling today, @sys-person?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@sys-person || #General_Greetings",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "e45bb0b0-8d62-4d55-8b6a-720e87a141a5",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
